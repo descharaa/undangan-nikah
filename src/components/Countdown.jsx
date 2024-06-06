@@ -36,7 +36,7 @@ export default function Countdown() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [time]);
 
   return (
     <div className="flex w-full items-center justify-center gap-1 px-12">
